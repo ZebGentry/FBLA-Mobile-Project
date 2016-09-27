@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Main Menu"
         android:paddingLeft="16dp"
         android:paddingRight= "16dp"
         android:paddingTop= "16dp"
@@ -18,27 +18,27 @@
         android:textAlignment="center"
         android:textStyle="bold"
         android:textSize="30sp"
-        android:id="@+id/textbox1"
+        android:id="@+id/textbox"
         />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textbox1"
-        android:text="Button 1"
+        android:layout_below="@id/textbox"
+        android:text="Search"
         android:paddingBottom="16dp"
         android:paddingTop="16dp"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
-        android:id="@+id/button1"
+        android:id="@+id/search_button"
         android:textSize="20sp"
         />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/button1"
-        android:text="Buton 2"
+        android:layout_below="@id/search_button"
+        android:text="Button 2"
         android:id="@+id/button2"
         android:paddingLeft="16dp"
         android:paddingBottom="16dp"
@@ -46,5 +46,32 @@
         android:paddingTop="16dp"
         android:textSize="20sp"
         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:text="Button 3"
+        android:id="@+id/button3"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button3"
+        android:text="Button 4"
+        android:id="@+id/button4"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:textSize="20sp"
+        />
+
 
 </RelativeLayout>
